@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@import "base/base";
+@import "var";
+@import "./photopreview.scss";
+
+html,body{
+  // width: 100%;
+  // height: 100%;
+}
+body {
+  color: #333;
+  background-color: #f5f5f5;
+  font: 12px/1.5 "San Francisco", "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  a {
+    color: #333;
+    text-decoration: none;
+    &:hover {
+      color: #333;
+      text-decoration: underline;
+    }
+  }
+  * {
+    box-sizing: border-box;
+    outline: none;
+  }
+  input {
+    color: #333;
+  }
+}
+

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-cmn-Hans">
+<head>
+  <!-- <script src="https://eruda.liriliri.io/eruda.min.js"></script>
+  <script>eruda.init();</script> -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="viewport-fit=cover, width=750, user-scalable=no">
+  <title> </title>
+  <meta name="description" content="">
+  <script>
+    (function(){
+      if ((/(fimo-cdn|fimo).yoyiapp.com/i).test(window.location.href)) return
+      var script = document.createElement('script');
+      script.src = 'https://iovo-oss.yy.com/upload/1591973227280orPcGITHL.js';
+      script.onload = function() {
+        var ua = navigator.userAgent.toLowerCase()
+        var isSafafi = /safari/i.test(ua) && /apple computer/i.test((window.navigator.vendor && window.navigator.vendor.toLowerCase()) || '')
+        // if (/micromessenger|fimo|qq/i.test(ua) || isSafafi) {
+          eruda.init()
+          eruda.scale(1.5)
+        // }
+      }
+      window.document.head.appendChild(script)
+    }());
+  </script>
+</head>
+<body>
+
+  <app></app>
+
+</body>
+</html>

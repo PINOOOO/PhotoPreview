@@ -1,0 +1,20 @@
+{
+  "name": "crop",
+  "version": "0.0.1",
+  "author": "",
+  "description": "",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "lf dev",
+    "build": "lf build"
+  },
+  "dependencies": {
+    "alloyfinger": "^0.1.16",
+    "axios": "^0.18.0",
+    "lego-photo-preview": "^1.0.0",
+    "standard": "^14.3.4",
+    "vue": "^2.5.16",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1"
+  }
+}

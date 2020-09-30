@@ -1,0 +1,19 @@
+# 参数说明: https://legoflow.com/wiki/config.html
+
+name: crop
+
+version: cli@2.7.0-beta.8
+
+type: Vue.js
+
+mode: webpack
+
+webpack:
+  sass.globalResources: [./src/style/var.scss]
+
+workflow.dev: {}
+
+workflow.build: {}
+
+entry:
+  - ./src/main.js
