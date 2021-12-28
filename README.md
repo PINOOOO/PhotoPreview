@@ -54,4 +54,4 @@ this.photoPreview.open({
 
 ## 实现以及原理
 
-[https://juejin.cn/search?query=photopreview](https://juejin.cn/search?query=photopreview)
+[https://juejin.cn/post/6878252181703622669](https://juejin.cn/post/6878252181703622669)
